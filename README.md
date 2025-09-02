@@ -1,6 +1,6 @@
 # Table of contents
 
-## June 25 Daily class Notes
+## class Notes
 
 * [Infra Set up](README.md)
 * [Linux commands](june-25-daily-class-notes/linux-commands/README.md)
