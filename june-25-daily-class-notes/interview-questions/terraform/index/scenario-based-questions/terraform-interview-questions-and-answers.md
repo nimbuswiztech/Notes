@@ -1,6 +1,6 @@
 # Terraform Interview Questions & Answers
 
-![](../../../../.gitbook/assets/0.png)
+![](../../../../../.gitbook/assets/0.png)
 
 Terraform Scenario based Interview Questions
 
@@ -14,7 +14,7 @@ Terraform is an IaC tool that lets you write code to define and manage your infr
 
 You describe your desired infrastructure in configuration files, Terraform figures out what needs to be done to achieve that state, and then it makes it happen by interacting with cloud providers or other infrastructure platforms.
 
-![](../../../../.gitbook/assets/1.jpeg)
+![](../../../../../.gitbook/assets/1.jpeg)
 
 **A DevOps Engineer manually created infrastructure on AWS, and now there is a requirement to use Terraform to manage it. How would you import these resources in Terraform code?**
 
@@ -34,7 +34,7 @@ command for each resource, specifying the resource type and its unique
 
 Repeat this process for each resource you want to manage with Terraform.
 
-![](../../../../.gitbook/assets/2.jpeg)
+![](../../../../../.gitbook/assets/2.jpeg)
 
 Reference: https://developer.hashicorp.com/terraform/cli/commands/import
 
@@ -44,11 +44,11 @@ Reference: https://developer.hashicorp.com/terraform/cli/commands/import
 
  **Terraform Modules** Code templates for infrastructure components. You define them once, and then you can use them with different configurations for various environments by passing in different parameters.
 
-![](../../../../.gitbook/assets/3.jpeg)
+![](../../../../../.gitbook/assets/3.jpeg)
 
  **Terraform Workspaces** Provide a way to manage separate states for the same set of configuration files. Each workspace maintains its own state, allowing you to work on different environments concurrently without interfering with each other.
 
-![](../../../../.gitbook/assets/4.jpeg)
+![](../../../../../.gitbook/assets/4.jpeg)
 
 Reference: https://getbetterdevops.io/terraform-create-infrastructure-in-multiple-environments/
 
@@ -60,7 +60,7 @@ State file is like a blueprint that stores information about the infrastructure 
 
 It's crucial because it helps Terraform understand what's already set up and what changes need to be made. By comparing the desired setup with the current one in the state file, Terraform can make accurate updates to your infrastructure.
 
-![](../../../../.gitbook/assets/5.jpeg)
+![](../../../../../.gitbook/assets/5.jpeg)
 
 **Jr DevOps Engineer accidently deleted the state file, what steps should we take to resolve this?**
 
@@ -90,7 +90,7 @@ Reference: https://medium.com/version-1/recovering-from-a-deleted-terraform-stat
 
  **Environment Separation** Maintain separate state files for each environment or utilize Terraform workspaces to manage multiple state files.
 
-![](../../../../.gitbook/assets/6.jpeg)
+![](../../../../../.gitbook/assets/6.jpeg)
 
 **Your team is adopting a multicloud strategy and you need to manage resources on both AWS and Azure using terraform so how do you structure your terraform code to handle this?**
 
@@ -112,7 +112,7 @@ subscription\_id = var.azure\_subscription\_id client\_id = var.azure\_client\_i
 
  Create Terraform code with separate modules for AWS and Azure resources.
 
-![](../../../../.gitbook/assets/7.jpeg)
+![](../../../../../.gitbook/assets/7.jpeg)
 
 **There are some bash scripts that you want to run after creating your resources with terraform so how would you achieve this**
 
@@ -164,13 +164,13 @@ Reference: https://developer.hashicorp.com/terraform/language/resources/provisio
 
 ### Blue-Green Deployments in Terraform:
 
-![](../../../../.gitbook/assets/8.png) **Concept:** Involves creating two identical environments: blue and green.
+![](../../../../../.gitbook/assets/8.png) **Concept:** Involves creating two identical environments: blue and green.
 
-![](../../../../.gitbook/assets/9.png) **Implementation:** Terraform facilitates this by defining two sets of infrastructure resources with slight variations.
+![](../../../../../.gitbook/assets/9.png) **Implementation:** Terraform facilitates this by defining two sets of infrastructure resources with slight variations.
 
-![](../../../../.gitbook/assets/10.png) **Example:** Different AWS Auto Scaling Groups or Azure Virtual Machine Scale Sets for blue and green environments.
+![](../../../../../.gitbook/assets/10.png) **Example:** Different AWS Auto Scaling Groups or Azure Virtual Machine Scale Sets for blue and green environments.
 
-### ![](../../../../.gitbook/assets/11.png) Deployment Process:
+### ![](../../../../../.gitbook/assets/11.png) Deployment Process:
 
  **Provisioning:** Create the new environment (green) alongside the existing one (blue).
 
@@ -178,7 +178,7 @@ Reference: https://developer.hashicorp.com/terraform/language/resources/provisio
 
  **Traffic Switching:** Update the load balancer or DNS records to route traffic from blue to green.
 
-![](../../../../.gitbook/assets/12.jpeg)
+![](../../../../../.gitbook/assets/12.jpeg)
 
 Reference: https://developer.hashicorp.com/terraform/tutorials/aws/blue-green-canary -tests- deployments
 
@@ -186,17 +186,17 @@ Reference: https://developer.hashicorp.com/terraform/tutorials/aws/blue-green-ca
 
 Terraform can be integrated with CI/CD pipelines to automate the deployment and management of infrastructure. Here's the typical process:
 
-![](../../../../.gitbook/assets/13.png) Commit the Terraform configurations to a version control system (e.g., Git).
+![](../../../../../.gitbook/assets/13.png) Commit the Terraform configurations to a version control system (e.g., Git).
 
-![](../../../../.gitbook/assets/14.png) Set up a CI/CD pipeline that monitors changes to the Terraform code repository.
+![](../../../../../.gitbook/assets/14.png) Set up a CI/CD pipeline that monitors changes to the Terraform code repository.
 
-![](../../../../.gitbook/assets/15.png) In the pipeline, execute Terraform commands such as init, validate, and plan to ensure the configurations are valid and generate an execution plan.
+![](../../../../../.gitbook/assets/15.png) In the pipeline, execute Terraform commands such as init, validate, and plan to ensure the configurations are valid and generate an execution plan.
 
-![](../../../../.gitbook/assets/16.png) Use Terraform's apply command to create or modify infrastructure based on the approved changes.
+![](../../../../../.gitbook/assets/16.png) Use Terraform's apply command to create or modify infrastructure based on the approved changes.
 
-![](../../../../.gitbook/assets/17.png) Optionally, leverage infrastructure testing and verification tools to validate the deployed infrastructure.
+![](../../../../../.gitbook/assets/17.png) Optionally, leverage infrastructure testing and verification tools to validate the deployed infrastructure.
 
-![](../../../../.gitbook/assets/18.png) Finally, trigger additional pipeline stages for application deployment, testing, and release.
+![](../../../../../.gitbook/assets/18.png) Finally, trigger additional pipeline stages for application deployment, testing, and release.
 
 https://y outu.be/oqOzM\_WBqZc
 
@@ -208,13 +208,13 @@ By combining Terraform with these tools, you can achieve a comprehensive infrast
 
 https://y outu.be/BXPsMuinvf4
 
-![](../../../../.gitbook/assets/19.png)
+![](../../../../../.gitbook/assets/19.png)
 
 **Your infrastructure contains database passwords and other sensitive information. How can you manage secrets and sensitive data in Terraform?**
 
 Managing secrets and sensitive data in Terraform require careful consideration to ensure security. Best practices include:
 
-![](../../../../.gitbook/assets/20.png) Never Hardcode secrets in your Terraform code
+![](../../../../../.gitbook/assets/20.png) Never Hardcode secrets in your Terraform code
 
 &#x20;Storing secrets outside of version-controlled files, using tools like HashiCorp Vault or cloud- specific secret management services.
 
