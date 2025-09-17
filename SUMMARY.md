@@ -159,6 +159,20 @@
 * [Docker files](june-25-daily-class-notes/docker-files.md)
 * [Introduction to SonarQube and Its Features](june-25-daily-class-notes/introduction-to-sonarqube-and-its-features.md)
 * [Basics of JFrog Artifactory](june-25-daily-class-notes/basics-of-jfrog-artifactory.md)
+* [Interview space](june-25-daily-class-notes/interview-space/README.md)
+  * [Kubernetes](june-25-daily-class-notes/interview-space/kubernetes/README.md)
+    * [INDEX](june-25-daily-class-notes/interview-space/kubernetes/index.md)
+    * [Part 1](june-25-daily-class-notes/interview-space/kubernetes/part-1.md)
+    * [Part 2](june-25-daily-class-notes/interview-space/kubernetes/part-2.md)
+    * [Part 3](june-25-daily-class-notes/interview-space/kubernetes/part-3.md)
+    * [Part 4](june-25-daily-class-notes/interview-space/kubernetes/part-4.md)
+    * [Part 5](june-25-daily-class-notes/interview-space/kubernetes/part-5.md)
+  * [Terraform](june-25-daily-class-notes/interview-space/terraform/README.md)
+    * [INDEX](june-25-daily-class-notes/interview-space/terraform/index/README.md)
+      * [Part 1](june-25-daily-class-notes/interview-space/terraform/index/part-1.md)
+      * [Part 2](june-25-daily-class-notes/interview-space/terraform/index/part-2.md)
+      * [Part 3](june-25-daily-class-notes/interview-space/terraform/index/part-3.md)
+      * [Advanced](june-25-daily-class-notes/interview-space/terraform/index/advanced.md)
 
 ***
 
