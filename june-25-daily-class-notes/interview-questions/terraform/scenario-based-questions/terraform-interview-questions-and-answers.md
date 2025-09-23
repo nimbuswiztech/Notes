@@ -1,6 +1,6 @@
 # Terraform Interview Questions & Answers
 
-![](../../../../.gitbook/assets/0.png)
+![](<../../../../.gitbook/assets/0 (1).png>)
 
 Terraform Scenario based Interview Questions
 
@@ -44,7 +44,7 @@ Reference: https://developer.hashicorp.com/terraform/cli/commands/import
 
  **Terraform Modules** Code templates for infrastructure components. You define them once, and then you can use them with different configurations for various environments by passing in different parameters.
 
-![](../../../../.gitbook/assets/3.jpeg)
+![](<../../../../.gitbook/assets/3 (1).jpeg>)
 
  **Terraform Workspaces** Provide a way to manage separate states for the same set of configuration files. Each workspace maintains its own state, allowing you to work on different environments concurrently without interfering with each other.
 
@@ -164,13 +164,13 @@ Reference: https://developer.hashicorp.com/terraform/language/resources/provisio
 
 ### Blue-Green Deployments in Terraform:
 
-![](../../../../.gitbook/assets/8.png) **Concept:** Involves creating two identical environments: blue and green.
+![](<../../../../.gitbook/assets/8 (1).png>) **Concept:** Involves creating two identical environments: blue and green.
 
-![](../../../../.gitbook/assets/9.png) **Implementation:** Terraform facilitates this by defining two sets of infrastructure resources with slight variations.
+![](<../../../../.gitbook/assets/9 (1).png>) **Implementation:** Terraform facilitates this by defining two sets of infrastructure resources with slight variations.
 
-![](../../../../.gitbook/assets/10.png) **Example:** Different AWS Auto Scaling Groups or Azure Virtual Machine Scale Sets for blue and green environments.
+![](<../../../../.gitbook/assets/10 (1).png>) **Example:** Different AWS Auto Scaling Groups or Azure Virtual Machine Scale Sets for blue and green environments.
 
-### ![](../../../../.gitbook/assets/11.png) Deployment Process:
+### ![](<../../../../.gitbook/assets/11 (1).png>) Deployment Process:
 
  **Provisioning:** Create the new environment (green) alongside the existing one (blue).
 
@@ -186,7 +186,7 @@ Reference: https://developer.hashicorp.com/terraform/tutorials/aws/blue-green-ca
 
 Terraform can be integrated with CI/CD pipelines to automate the deployment and management of infrastructure. Here's the typical process:
 
-![](../../../../.gitbook/assets/13.png) Commit the Terraform configurations to a version control system (e.g., Git).
+![](<../../../../.gitbook/assets/13 (1).png>) Commit the Terraform configurations to a version control system (e.g., Git).
 
 ![](../../../../.gitbook/assets/14.png) Set up a CI/CD pipeline that monitors changes to the Terraform code repository.
 

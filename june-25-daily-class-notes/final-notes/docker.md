@@ -48,7 +48,7 @@ Docker can build images automatically by reading the instructions from a Dockerf
 
 ![](../../.gitbook/assets/0.jpeg)
 
-![Docker Introduction](<../../.gitbook/assets/1 (1).png>)
+![Docker Introduction](<../../.gitbook/assets/1 (2).png>)
 
 **Docker Host :** The machine that installed with the docker is called Docker Host
 
@@ -107,7 +107,7 @@ CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 
 Step 5: Review the online presence of Apache Server
 
-![Image](<../../.gitbook/assets/2 (1).png>)
+![Image](<../../.gitbook/assets/2 (2).png>)
 
 **Dockerfile Instructions**
 
@@ -201,15 +201,15 @@ Containers can communicate with other containers and also with the Docker Host. 
 
 **Host**: This driver removes the network isolation between the docker host and the docker containers to use the host’s networking directly. So with this, you will not be able to run multiple web containers on the same host, on the same port as the port is now common to all containers in the host network.
 
-![Host-3.png](<../../.gitbook/assets/4 (1).png>)
+![Host-3.png](<../../.gitbook/assets/4 (2).png>)
 
 **None**: In this kind of network, containers are not attached to any network and do not have any access to the external network or other containers. So, this network is used when you want to completely disable the networking stack on a container and, only create a loopback device.
 
-![None-3-300x229.png](<../../.gitbook/assets/5 (1).png>)
+![None-3-300x229.png](<../../.gitbook/assets/5 (2).png>)
 
 **Overlay**: Creates an internal private network that spans across all the nodes participating in the swarm cluster.
 
-![Overlay-1-768x314.png](<../../.gitbook/assets/6 (1).png>)
+![Overlay-1-768x314.png](<../../.gitbook/assets/6 (2).png>)
 
 ### **Docker Compose**
 

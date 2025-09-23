@@ -200,3 +200,4 @@
   * [Environments with Tf Workspaces](june-25-daily-class-notes/terraform/environments-with-tf-workspaces.md)
 * [Final Notes](june-25-daily-class-notes/final-notes/README.md)
   * [Docker](june-25-daily-class-notes/final-notes/docker.md)
+  * [NOTES AWS](june-25-daily-class-notes/final-notes/notes-aws.md)
