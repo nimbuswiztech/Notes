@@ -201,3 +201,6 @@
 * [Final Notes](june-25-daily-class-notes/final-notes/README.md)
   * [Docker](june-25-daily-class-notes/final-notes/docker.md)
   * [NOTES AWS](june-25-daily-class-notes/final-notes/notes-aws.md)
+* [Jira](june-25-daily-class-notes/jira.md)
+* [API](june-25-daily-class-notes/api.md)
+* [Page 1](june-25-daily-class-notes/page-1.md)
