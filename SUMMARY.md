@@ -164,7 +164,7 @@
   * [Kubernetes upgrade cluster](june-25-daily-class-notes/kubernetes/kubernetes-upgrade-cluster.md)
   * [Ingress with example](june-25-daily-class-notes/kubernetes/ingress-with-example.md)
 * [Interview space](june-25-daily-class-notes/interview-space/README.md)
-  * [Page 1](june-25-daily-class-notes/interview-space/page-1.md)
+  * [Kubernetes Migration Process Real time](june-25-daily-class-notes/interview-space/kubernetes-migration-process-real-time.md)
 * [Additional topics](june-25-daily-class-notes/additional-topics/README.md)
   * [Basics of JFrog Artifactory](june-25-daily-class-notes/basics-of-jfrog-artifactory.md)
   * [Introduction to SonarQube and Its Features](june-25-daily-class-notes/introduction-to-sonarqube-and-its-features.md)

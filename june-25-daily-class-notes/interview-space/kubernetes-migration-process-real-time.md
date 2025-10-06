@@ -1,73 +1,62 @@
-# Page 1
-
-Kubernetes Migration Process Real time ![](../../.gitbook/assets/unknown.png)
-
-\
-\
-\
-\
-\
-\
-\
-\
-\
+# Kubernetes Migration Process Real time
 
 
-Machine and Application Prerequistes
+
+<figure><img src="../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
 
 \
 
 
-&#x20;
-
-Initial Machine Setup with Docker Desktop&#x20;
-
-Familiarize with your application&#x20;
-
-Ldap Library Change Guide&#x20;
-
-How to provision secret in a Kubernetes cluster for a migrating app&#x20;
-
-Application Migration Stage 1&#x20;
-
-Java App Containerization&#x20;
-
-Ruby App Containerization&#x20;
-
-RSPEC Test Containerization&#x20;
-
-Setting Up/Upgrade An Application Pipeline (Jenkins)&#x20;
-
-Application Migration Stage 2&#x20;
-
-K8s Repo setup&#x20;
-
-Run Tilt&#x20;
-
-Tomee XML Generator&#x20;
-
-Application Migration Stage 3&#x20;
-
-Add a namespace Entry&#x20;
-
-Deploy application into QA through argo&#x20;
-
-Setting Up Inbound Trac for an Application&#x20;
-
-Setting Up Outbound Trac for an Application&#x20;
-
-Switching to Legacy Proxy
-
-2/3&#x20;
-
-Accessing cluster&#x20;
-
-Application Migration Stage 4 Application Migration Stage 5
-
-\
+Machine and Application Prerequistes\
 
 
-Detailed explanation
+
+1. **Initial Machine Setup with Docker Desktop**&#x20;
+
+* Familiarize with your application&#x20;
+* Ldap Library Change Guide&#x20;
+* How to provision secret in a Kubernetes cluster for a migrating app&#x20;
+
+
+
+2. **Application Migration Stage 1**&#x20;
+
+* Java App Containerization&#x20;
+* Ruby App Containerization&#x20;
+* RSPEC Test Containerization
+* &#x20;Setting Up/Upgrade An Application Pipeline (Jenkins)&#x20;
+
+
+
+3. **Application Migration Stage 2**&#x20;
+
+* K8s Repo setup&#x20;
+* Run Tilt&#x20;
+* Tomee XML Generator&#x20;
+
+
+
+4. **Application Migration Stage 3**&#x20;
+
+* Add a namespace Entry&#x20;
+* Deploy application into QA through argo&#x20;
+* Setting Up Inbound Trac for an Application&#x20;
+* Setting Up Outbound Trac for an Application&#x20;
+* Switching to Legacy Proxy
+* Deploy application into QA through argo&#x20;
+* Setting Up Inbound Trac for an Application&#x20;
+* Setting Up Outbound Trac for an Application&#x20;
+* Switching to Legacy Proxy
+
+
+
+5. **Accessing cluster**&#x20;
+
+* Application Migration Stage 4&#x20;
+* Application Migration Stage 5\
+
+
+### Detailed explanation
 
 Migrating an application to Kubernetes is a multi-stage, structured process that combines prerequisite setup, containerization, CI/CD enhancements, K8s manifest development, secret management, and progressive deployment. Drawing from senior-level real-time experience and using your reference steps, here’s how I would approach and explain a full migration:
 
