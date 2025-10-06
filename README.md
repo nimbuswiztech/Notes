@@ -156,11 +156,11 @@
 
 ***
 
-* [3 Tier Architechure](3-tier-architechure/)
-  * [Three-Tier Architecture Implementation](3-tier-architechure/three-tier-architecture-implementation.md)
-  * [explain a 3 tier architecture that you implemented](3-tier-architechure/explain-a-3-tier-architecture-that-you-implemented.md)
-  * [Possible cross questions](3-tier-architechure/possible-cross-questions.md)
-* [Class teaching images](class-teaching-images.md)
-* [Sample project structure](sample-project-structure/)
-  * [Real-Time Microservices Project Architecture](sample-project-structure/real-time-microservices-project-architecture.md)
-  * [Detailed Explanation](sample-project-structure/detailed-explanation.md)
+* [3 Tier Architechure](june-25-daily-class-notes/interview-space/3-tier-architechure/)
+  * [Three-Tier Architecture Implementation](june-25-daily-class-notes/interview-space/3-tier-architechure/three-tier-architecture-implementation.md)
+  * [explain a 3 tier architecture that you implemented](june-25-daily-class-notes/interview-space/3-tier-architechure/explain-a-3-tier-architecture-that-you-implemented.md)
+  * [Possible cross questions](june-25-daily-class-notes/interview-space/3-tier-architechure/possible-cross-questions.md)
+* [Class teaching images](june-25-daily-class-notes/interview-space/3-tier-architechure/class-teaching-images.md)
+* [Sample project structure](june-25-daily-class-notes/interview-space/sample-project-structure/)
+  * [Real-Time Microservices Project Architecture](june-25-daily-class-notes/interview-space/sample-project-structure/real-time-microservices-project-architecture.md)
+  * [Detailed Explanation](june-25-daily-class-notes/interview-space/sample-project-structure/detailed-explanation.md)
