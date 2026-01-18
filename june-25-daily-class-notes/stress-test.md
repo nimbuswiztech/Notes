@@ -9,7 +9,7 @@
 On most Linux distributions (like Ubuntu on EC2):
 
 ```
-bashsudo apt update
+sudo apt update
 sudo apt install stress stress-ng
 ```
 
@@ -19,7 +19,7 @@ sudo apt install stress stress-ng
 * **Usage Example:** To stress 4 CPU cores for 60 seconds:
 
 ```
-bashstress --cpu 4 --timeout 60
+stress --cpu 4 --timeout 60
 ```
 
 * `--cpu 4`: Uses 4 worker threads spinning on sqrt() calculations.
@@ -31,7 +31,7 @@ bashstress --cpu 4 --timeout 60
 * **Example:** To stress all available CPU cores for 2 minutes:
 
 ```
-bashstress-ng --cpu 0 --timeout 120s
+stress-ng --cpu 0 --timeout 120s
 ```
 
 * `--cpu 0`: Stresses all CPUs.
@@ -41,7 +41,7 @@ bashstress-ng --cpu 0 --timeout 120s
 **Example:**
 
 ```
-bashstress-ng --cpu 2 --vm 2 --vm-bytes 512M --timeout 60s
+stress-ng --cpu 2 --vm 2 --vm-bytes 512M --timeout 60s
 ```
 
 This creates 2 CPU stressors, 2 memory stressors, each using 512MB memory, for 1 minute.
@@ -66,7 +66,7 @@ These tools are safe to use for testing as long as you don’t run them indefini
 You can use `stress` or `stress-ng` to push CPU usage above 80% as previously described:
 
 ```
-bashstress-ng --cpu 1 --cpu-load 85 --timeout 60s
+stress-ng --cpu 1 --cpu-load 85 --timeout 60s
 ```
 
 * `--cpu 1`: Stresses the single available vCPU.
@@ -76,4 +76,4 @@ bashstress-ng --cpu 1 --cpu-load 85 --timeout 60s
 > **Note:**\
 > With only 1 vCPU and 1 GiB RAM, the t2.micro is best for light workloads or bursty tasks. If you stress the CPU for longer than your credit balance allows (especially without T2 Unlimited), performance will throttle down dramatically once credits are exhausted. Always monitor your **CPUCreditBalance** in CloudWatch during tests.
 
-\
+<br>
