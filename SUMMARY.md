@@ -219,4 +219,4 @@
 * [Prometheus and Grafana](june-25-daily-class-notes/prometheus-and-grafana/README.md)
   * [Grafana](june-25-daily-class-notes/prometheus-and-grafana/grafana.md)
   * [⎈ A Hands-On Guide to Kubernetes Monitoring Using Prometheus & Grafana🛠️](june-25-daily-class-notes/prometheus-and-grafana/a-hands-on-guide-to-kubernetes-monitoring-using-prometheus-and-grafana.md)
-* [Project Explanation in detail For](june-25-daily-class-notes/project-explanation-in-detail-for.md)
+* [Project Explanation in detail For Dec 25](june-25-daily-class-notes/project-explanation-in-detail-for-dec-25.md)
