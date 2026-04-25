@@ -10,11 +10,9 @@ Another example, Like some teams may need modification on the Terraform infrastr
 
 
 
-When it comes to the development activities with respect to the team, I was taking  complete responsibility , where I have been responsible for 3 applications out of that 2 Running on ECS and one was on prem that is running on Openstack\
+When it comes to the development activities with respect to the team, I was taking  complete responsibility , where I have been responsible for 3 applications out of that 2 Running on ECS and one was on prem that is running on Openstack<br>
 
-
-Bss (Billing shared services  team) , in this team we are mainly responsible for billing related applications , So within that we have a multiple applications like  PaaS (payment as a service), NaaS (notification as a service)and BaaS (billing as a service)applications mainly , \
-
+Bss (Billing shared services  team) , in this team we are mainly responsible for billing related applications , So within that we have a multiple applications like  PaaS (payment as a service), NaaS (notification as a service)and BaaS (billing as a service)applications mainly , <br>
 
 So under this, they have the infrastructure which includes Baas is on On-Prem service (Openstack) and apart from that Paas and Naas are AWS services.&#x20;
 
@@ -30,19 +28,16 @@ so i Have taken the complete ownership of this applications like from the beginn
 
 So as I said, I was part of development team as well as the support team where I’ll be Taking multiple tickets from various teams to support multiple teams  as well,
 
-\
-
+<br>
 
 &#x20;We are mainly using Jira to handle our tickets&#x20;
 
-\
-
+<br>
 
 and Work managements&#x20;
 
-\
-
+<br>
 
 This is just a brief introduction about my roles and responsibilities WRT to my last project .
 
-\
+<br>

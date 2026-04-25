@@ -197,4 +197,4 @@ bashdocker run -d --name nginx-alt -p 8081:80 nginx
 
 This approach ensures your local machine can access Nginx via the mapped port.
 
-\
+<br>

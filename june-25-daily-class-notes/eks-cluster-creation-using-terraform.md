@@ -1,4 +1,4 @@
-# Page 1
+# EKS Cluster creation using terraform
 
 Terraform Code to Create an EKS Cluster with Node Group (AWS)
 
@@ -160,7 +160,6 @@ terraform {
 
 This code is **battle-tested, industry standard, and ready for use** in dev or as a baseline for production.
 
-\
+<br>
 
-
-\
+<br>

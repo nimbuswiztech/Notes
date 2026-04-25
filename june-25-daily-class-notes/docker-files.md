@@ -95,4 +95,4 @@ docker run -d --name sonarqube -p 9000:9000 sonarqube
 
 Try the `sudo` approach first if you want a quick fix, or add your user to the group for a long-term solution.
 
-\
+<br>

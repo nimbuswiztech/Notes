@@ -87,4 +87,4 @@ The common EC2 instance states are Pending, Running, Stopping, Stopped, Terminat
 6. **Shutting-down:** If AWS is retiring an instance, it goes into the "Shutting-down" state for a brief period before the instance is terminated. During this time, the instance is no longer available for use, and the data and configuration are preserved. This state is similar to the stopping state but with an added step of preparing the instance for retirement.
 7. **Rebooting:** If you choose to reboot an EC2 instance, it enters the rebooting state. During this state, the instance's operating system is shut down and then restarted, but the instance's configuration and data are preserved. You might reboot an instance if you need to apply updates or make changes to the instance's configuration.
 
-\
+<br>

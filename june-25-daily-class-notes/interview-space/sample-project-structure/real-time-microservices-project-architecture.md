@@ -136,4 +136,4 @@ This setup represents a **production-grade, cloud-native microservices architect
 
 👉 This setup mirrors what **actual organizations (fintechs, SaaS, e-commerce, AI-driven apps)** deploy on AWS for production workloads today.
 
-\
+<br>

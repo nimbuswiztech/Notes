@@ -20,8 +20,7 @@ o    Terraform is focused on infrastructure provisioning and management, while t
 
 o    Infrastructure as Code is the practice of managing infrastructure using code and automation. With IaC, infrastructure configurations are defined in code, version-controlled, and can be automatically provisioned and managed.
 
-\
-
+<br>
 
 ### 4.         What is the purpose of state files in Terraform?
 
@@ -168,8 +167,7 @@ o        value = aws\_instance.example.public\_ip
 
 }
 
-\
-
+<br>
 
 ## Terraform Modules:
 
@@ -241,8 +239,7 @@ o    You create a subnet using the appropriate resource block for the cloud prov
 
 aws\_subnetfor AWS orgoogle\_compute\_subnetwork\` for Google Cloud.
 
-\
-
+<br>
 
 ### 34.   What is security group in Terraform?
 
@@ -298,8 +295,7 @@ select command.
 
 o    Common pitfalls include not properly managing state files, failing to use appropriate locking mechanisms, and not testing changes thoroughly before applying them in production environments.
 
-\
-
+<br>
 
 ## Advanced Terraform Concepts:
 
@@ -361,8 +357,7 @@ o    Troubleshooting Terraform configuration errors involves carefully reviewing
 
 o    Terraform's remote backend allows you to store state files remotely, enabling collaboration and concurrency among multiple users.
 
-\
-
+<br>
 
 ### 49.   How do you configure a remote backend in Terraform?
 
@@ -424,8 +419,7 @@ o    _Answer:_ Use the terraform plan command.
 
 o    _Answer:_ Use the terraform apply command.
 
-\
-
+<br>
 
 ### 7.         How do you destroy resources provisioned by Terraform?
 
@@ -481,8 +475,7 @@ o    _Answer:_ Terraform state can be stored locally in a file (terraform.tfstat
 
 o    _Answer:_ Loss or corruption of Terraform state can lead to inconsistencies between the desired infrastructure state and the actual state. It's crucial to back up and protect Terraform state.
 
-\
-
+<br>
 
 ## Terraform Modules:
 
@@ -534,8 +527,7 @@ o    _Answer:_ Sensitive data can be managed using sensitive input variables (se
 
 o    _Answer:_ Workspaces allow you to manage multiple environments (such as development, staging, and production) within the same Terraform configuration, maintaining separate state files for each environment.
 
-\
-
+<br>
 
 ## Terraform Best Practices:
 
@@ -585,8 +577,7 @@ o    _Answer:_ Terraform supports major cloud providers such as AWS, Azure, Goog
 
 o    _Answer:_ Terraform providers authenticate using credentials (e.g., API keys, access tokens) provided through environment variables, configuration files, or external identity providers.
 
-\
-
+<br>
 
 ### 28.   What is the Terraform remote backend?
 
@@ -620,8 +611,7 @@ o    _Answer:_ Implementing safeguards such as enabling terraform
 
 apply confirmation prompts, using terraform plan to review changes before applying, and enabling state file backups can help prevent accidental destruction.
 
-\
-
+<br>
 
 ## Terraform Integration:
 
@@ -667,8 +657,7 @@ o    _Answer:_ Terraform Enterprise is a commercial offering by HashiCorp that p
 
 o    _Answer:_ Terraform Enterprise allows you to manage workspaces and permissions through its web interface, providing granular control over who can access and modify infrastructure configurations.
 
-\
-
+<br>
 
 ## Terraform Cloud:
 
@@ -712,8 +701,7 @@ o    _Answer:_ Existing infrastructure can be migrated to Terraform by reverse- 
 
 o    _Answer:_ Challenges include ensuring compatibility between existing infrastructure and Terraform configurations, handling state migration, and managing dependencies between resources.
 
-\
-
+<br>
 
 ## Terraform Scaling:
 

@@ -49,8 +49,7 @@ This experience reinforced the importance of standardizing and automating deploy
 \
 \
 \
-\
-
+<br>
 
 when its a running deployment why there will be configuration mismatches between environments,
 
@@ -91,4 +90,4 @@ Configuration mismatches between environments during a running deployment can oc
 * Issue: Differences in underlying infrastructure, such as hardware, network settings, or cloud configurations, can lead to mismatches. For example, different server types or network configurations can affect application performance.
 * Impact: These differences can cause inconsistent behavior or performance issues that are difficult to diagnose.
 
-\
+<br>

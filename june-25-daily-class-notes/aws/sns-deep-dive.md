@@ -636,4 +636,4 @@ At the end of the day, SNS can be thought of as the go-to tool when you consider
 
 SNS stands as one of the great services that AWS offers to build a resilient, scalable application in the cloud, the integration details differ from one application to another, but at the high-level, it is important to know when to pick this service, and hopefully our blog post contains all the information you need to start using SNS in your system.
 
-\
+<br>

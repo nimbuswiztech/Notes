@@ -97,4 +97,4 @@ And as we can see we have a new commit in our remote repository and _**Hello Wor
 | Moves HEAD pointer to a specific commit.         | Discards the uncommitted changes.                                    | Rollbacks the changes which we have committed.    |
 | Can be used to manipulate commits or files.      | Can be used to manipulate commits or files.                          | Does not manipulate your commits or files.        |
 
-\
+<br>

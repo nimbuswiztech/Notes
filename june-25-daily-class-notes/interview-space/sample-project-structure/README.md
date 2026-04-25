@@ -174,4 +174,4 @@ Your project is a **microservices-based application running on AWS using EKS (El
 
 This architecture and tech stack model what real teams deploy daily to deliver secure, resilient, and scalable applications in production cloud environments.
 
-\
+<br>

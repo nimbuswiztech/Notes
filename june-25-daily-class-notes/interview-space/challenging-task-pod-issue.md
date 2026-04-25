@@ -16,4 +16,4 @@ To fix this, I worked with the team to:
 
 Post-fix, the pod started reliably with secrets injected correctly, and payment processing resumed normal operations. We also added monitoring alerts on pod restarts and secret sync failures in Prometheus and Grafana to catch future issues early.
 
-\
+<br>

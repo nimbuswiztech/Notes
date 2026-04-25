@@ -208,4 +208,4 @@ Let's examine how an e-commerce company can leverage different EC2 pricing model
 
 Understanding these EC2 pricing models and their appropriate use cases enables organizations to achieve significant cost savings while maintaining performance and reliability requirements. The key is matching workload characteristics with the most suitable pricing model and continuously optimizing as usage patterns evolve.
 
-\
+<br>

@@ -31,4 +31,4 @@ In contrast, while other AWS storage services like S3 provide object storage, an
 
 In summary, **EBS volumes are needed to give EC2 instances reliable, scalable, and performant disk storage independent from the instance's lifecycle**, critical for most production applications running on AWS.
 
-\
+<br>

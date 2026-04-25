@@ -541,7 +541,7 @@ The federated clusters can achieve this by doing the following two things. Refer
 
 ![Federated Clusters - Kubernetes Interview Questions - Edureka](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/08/30.png)
 
-#### **Fig 15:** Federated Clusters – Kubernetes Interview Questions 
+#### **Fig 15:** Federated Clusters – Kubernetes Interview Questions<br>
 
 ### **Scenario-Based Kubernetes Interview Questions**
 

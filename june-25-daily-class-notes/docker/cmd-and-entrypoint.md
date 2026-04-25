@@ -419,4 +419,4 @@ The combination of ARG, ENTRYPOINT, and CMD creates a powerful system for contai
 
 Understanding their interaction enables you to build images that are both opinionated (through ENTRYPOINT) and flexible (through CMD), while build arguments allow customization at build time. This leads to more maintainable, user-friendly container images that work well in different environments and use cases.
 
-\
+<br>

@@ -823,4 +823,4 @@ Restricting access and permissions in Jenkins is critical for maintaining a secu
 
 By rigorously applying these controls, you can ensure that Jenkins’ access and permissions align with organizational security policies, reducing the risks of accidental or malicious misuse.
 
-\
+<br>

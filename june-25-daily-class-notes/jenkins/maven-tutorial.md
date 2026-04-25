@@ -67,4 +67,4 @@ Maven snapshots are used to manage the latest development versions of our projec
 | **Build Lifecycle**       | Defined lifecycle phases (compile, test, package, etc.) which are executed in order. | No predefined lifecycle; tasks are executed as scripted.                     |
 | **Plugin Ecosystem**      | Extensive plugin ecosystem for extending functionality.                              | Supports plugins, but generally less extensive and more complex to integrate |
 
-\
+<br>

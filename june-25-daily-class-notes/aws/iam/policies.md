@@ -147,4 +147,4 @@ To give an application or EC2 instance **temporary access to S3**, the recommend
 
 These methods ensure minimum, time-bounded access and follow AWS security best practices.
 
-\
+<br>

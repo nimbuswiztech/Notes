@@ -140,4 +140,4 @@ Root user default prompt is root@abhishekaslk(user):~#
 > * **yash (Yet Another SHell)**: A POSIX-compliant shell focusing on spec compliance and small footprint.
 > * **oksh (OpenBSD Korn Shell)**: An OpenBSD-enhanced version of the Korn Shell, emphasizing simplicity, efficiency, and correctness.
 
-\
+<br>

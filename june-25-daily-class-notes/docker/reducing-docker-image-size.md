@@ -136,4 +136,4 @@ Integrate regular image audits and size checks into your CI pipeline:
 * Fail builds if image exceeds a size threshold.
 * Report layer sizes and trending growth over time.
 
-\
+<br>

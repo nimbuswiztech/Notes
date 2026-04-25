@@ -2,8 +2,7 @@
 
 Migrate legacy  AWS environment to  infrastructure under code using Terraform
 
-\
-
+<br>
 
 In a previous project, the team inherited a large legacy AWS environment with manually provisioned EC2 instances, networking, and security configurations. The challenge was to bring the entire infrastructure under code using Terraform and automate deployments with zero downtime.
 
@@ -104,4 +103,4 @@ For application updates on EC2 instances behind the ALB, we devised a blue-green
 
 This approach drastically improved deployment reliability and reduced manual errors. Infrastructure was now fully version-controlled, repeatable, and auditable.
 
-\
+<br>

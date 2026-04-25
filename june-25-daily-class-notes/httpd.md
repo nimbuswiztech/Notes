@@ -82,4 +82,4 @@
 7. **SSL/HTTPS Enablement**
    * Your site needs to enforce secure connections. What configuration changes and files are required to enable HTTPS?
 8. **Performance Optimization**
-   * Discuss why excessive use of `.htaccess` may impact performance and how to optimize Apache configuration accordingly.\
+   * Discuss why excessive use of `.htaccess` may impact performance and how to optimize Apache configuration accordingly.<br>

@@ -112,4 +112,4 @@ The project includes realistic enterprise features:
 
 This comprehensive demo provides a solid foundation for understanding and implementing Jenkins Docker agents in real-time enterprise environments, covering multiple scenarios that development teams encounter in production.
 
-\
+<br>

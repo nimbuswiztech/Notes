@@ -208,4 +208,4 @@ Press enter or click to view image in full size
 
 Docker volumes are a powerful feature that enhances the flexibility and efficiency of containerized applications. By understanding the different types of volumes and how to manage them, you can effectively use Docker to persist, share, and manage data within your containers.
 
-\
+<br>

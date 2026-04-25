@@ -191,7 +191,6 @@ For production environments, implement a **multi-tier architecture** with clearl
 
 This comprehensive VPC architecture provides the foundation for building secure, scalable, and resilient cloud networks on AWS. Understanding these components and their interactions is essential for designing effective cloud infrastructure that meets both performance and security requirements.
 
-\
+<br>
 
-
-\
+<br>

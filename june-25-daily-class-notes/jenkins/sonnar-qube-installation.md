@@ -177,4 +177,4 @@ sudo systemctl start sonarqube
 
 Let me know if you want me to adjust this for a different OS or to cover production settings with an external database.
 
-\
+<br>

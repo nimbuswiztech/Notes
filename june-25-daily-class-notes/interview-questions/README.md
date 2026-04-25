@@ -1,4 +1,4 @@
-# Interview questions
+# Interview Space
 
 ## Jenkins: Real-Time Scenario Interview Q\&A <a href="#jenkins-real-time-scenario-interview-qa" id="jenkins-real-time-scenario-interview-qa"></a>
 
@@ -358,4 +358,4 @@
 20. **Scenario:** You must ensure no sensitive data is left on EBS volumes after instance termination. What do you recommend?\*\*
     * Enable EBS encryption, set "Delete on Termination," and if not using encryption, zero out disk space before termination. Consider Secure Delete utilities or AWS-provided disk wiping methods.
 
-\
+<br>

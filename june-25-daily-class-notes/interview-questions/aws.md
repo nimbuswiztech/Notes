@@ -229,4 +229,4 @@ Design a combination of On-Demand and Spot Instances behind an Auto Scaling grou
   * Deletes unauthorized user.
   * Sends an alert via SNS to the security team.
 
-\
+<br>

@@ -51,14 +51,13 @@ o   start tomcat service and verify the deployment.
 
 o  If a deployment fails, we'll first examine the application logs to identify and address any issues. If possible, we'll fix the problem; otherwise, we'll initiate a rollback to the previous version of the application.
 
-\
-
+<br>
 
 ### Kubernetes deployment steps&#x20;
 
 Jenkinsfile to define the steps in a pipeline for deploying a spring-boot application to an EKS cluster using Jenkins.
 
-#### The steps should include 
+#### The steps should include <br>
 
 * Checking out the git repository,&#x20;
 * Building a Jar,&#x20;
@@ -152,8 +151,7 @@ Monitor the pipeline progress and view the build logs to see if there are any is
 
 #### Interact with a cluster from terminal
 
-Retrieve the status of an Amazon Elastic Container Service for Kubernetes (EKS) cluster\
-
+Retrieve the status of an Amazon Elastic Container Service for Kubernetes (EKS) cluster<br>
 
 `aws eks describe-cluster --region <region-name> --name <cluster-name> --query cluster.status`
 
@@ -165,8 +163,7 @@ The kubeconfig file is used to manage the communication between the Kubernetes c
 
 #### Retrieve data from the cluster
 
-The following commands are used to retrieve information from a Kubernetes cluster, including lists of all nodes, pods, and services, as well as deployment data:\
-
+The following commands are used to retrieve information from a Kubernetes cluster, including lists of all nodes, pods, and services, as well as deployment data:<br>
 
 `kubectl get nodes`
 

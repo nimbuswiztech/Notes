@@ -62,8 +62,7 @@ There are various Linux distros but the following are the most commonly used:
 
 ### 4.    What are the major differences between Linux and Windows? <a href="#id-4._what_are_the_major_differences_betwee" id="id-4._what_are_the_major_differences_betwee"></a>
 
-\
-
+<br>
 
 <table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top">Comparison Factor</td><td valign="top">Linux</td><td valign="top">Windows</td></tr><tr><td valign="top">Free/Paid</td><td valign="top">It is a free and open- source OS.</td><td valign="top">It is not open-source and is free to use.</td></tr><tr><td valign="top">Security</td><td valign="top">Linux is highly secure.</td><td valign="top">Windows is less secure compared to Linux.</td></tr><tr><td valign="top">Path separator</td><td valign="top">As a path separator, it uses a forward slash.</td><td valign="top">Windows uses a backward slash between the directories.</td></tr><tr><td valign="top">Efficiency</td><td valign="top">Linux is more efficient than Windows.</td><td valign="top">Windows is less efficient.</td></tr><tr><td valign="top">Kernel type</td><td valign="top">It uses a monolithic kernel.</td><td valign="top">It uses a microkernel.</td></tr><tr><td valign="top">File system</td><td valign="top">Linux file systems are case-sensitive.</td><td valign="top">Its file system is case-insensitive.</td></tr></tbody></table>
 
@@ -101,8 +100,7 @@ There are three types of file permissions in Linux:
 
 • Read: Users open and read files with this permission.
 
-\
-
+<br>
 
 • Write: Users can open and modify the files.
 
@@ -164,8 +162,7 @@ CLI, i.e., command line interface. It takes input as a command and runs the task
 
 ### 12.     What is Swap Space? <a href="#id-12._what_is_swap_space" id="id-12._what_is_swap_space"></a>
 
-\
-
+<br>
 
 Linux uses swap space to expand RAM. Linux uses this extra space to hold concurrently running programs temporarily.
 
@@ -185,15 +182,13 @@ Here is the table that shows the difference between soft links and hard links:
 
 Symbolic links, symlink, or soft links are shortcuts to files and directories. Users can create the symbolic link in Linux through the’ ln’ command. The general command to create a symbolic link is as follows:
 
-\
-
+<br>
 
 ### 15.     What do you understand about the standard streams? <a href="#id-15._what_do_you_understand_about_the_sta" id="id-15._what_do_you_understand_about_the_sta"></a>
 
 Output and input in Linux OS are divided into three standard streams:
 
-\
-
+<br>
 
 • Stdin (standard input)
 
@@ -253,8 +248,7 @@ First of all, please check if the internet connection option is on and also chec
 
 #### Verify the Network Configuration:
 
-\
-
+<br>
 
 • Please check that your network is configured correctly and the network interface has your IP address. You can check it by running the ip addr or ifconfig commands.
 
@@ -306,8 +300,7 @@ You can use the chmod command to change the file permissions of the directories.
 
 chmod u+wx ABC.sh                                                           The chmod command is not limited to the write (w), read (r), and executable (x) permissions because there are symbolic modes and numeric modes.
 
-\
-
+<br>
 
 ### 20.     How do you check disk space usage? <a href="#id-20._how_do_you_check_disk_space_usage" id="id-20._how_do_you_check_disk_space_usage"></a>
 
@@ -361,8 +354,7 @@ The rsync command is used to synchronize and transfer the files in Linux. It syn
 
 rsync \<options> \<source> \<destination>                                    &#x20;
 
-\
-
+<br>
 
 For example, let’s synchronize between Documents and the Downloads directory. For this, you need to run the following command:
 
@@ -404,8 +396,7 @@ You can use adduser and useradd commands to create a user for the system.
 
 Let’s create a username, “Ron,” and provide a password for accessing the system:
 
-\
-
+<br>
 
 You can also explore the useradd command’s additional options to modify the new user’s permissions and privileges.
 
@@ -413,8 +404,7 @@ You can also explore the useradd command’s additional options to modify the ne
 
 The adduser command is similar to the useradd command, so let’s create a username “Shawn”:
 
-\
-
+<br>
 
 ### 24.     How do you format a disk in Linux? <a href="#id-24._how_do_you_format_a_disk_in_linux" id="id-24._how_do_you_format_a_disk_in_linux"></a>
 
@@ -426,8 +416,7 @@ If the selected disk is mounted, then unmount it through the following command:
 
 umount \<partition>                                                          Now, find the file system type of the disk, like EXT4, NTFS, or XFS. Once you are done then, run one of the following commands according to the file system type:
 
-\
-
+<br>
 
 ![Text Box: mkfs.ext4 \<partition> mkfs.xfs \<partition> mkfs.ntfs \<partition>](file:///Users/apple/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image004.jpg)
 
@@ -465,8 +454,7 @@ The ulimit command controls the resource limit for the user process. You can use
 
 ulimit -u 50                                                              &#x20;
 
-\
-
+<br>
 
 You can explore more options of the ulimit command.
 
@@ -494,8 +482,7 @@ The full form of RAID is the Redundant Array of Independent Disk that allows the
 
 There are numerous challenges that a user faces while using Linux:
 
-\
-
+<br>
 
 • Linux shows hardware compatibility issues in certain devices because manufacturers prioritize Windows compatibility.
 
@@ -561,8 +548,7 @@ There are multiple methods to secure the Linux server and protect it from data b
 
 • Review logs and perform regular security audits.
 
-\
-
+<br>
 
 • Encrypt network traffic and enable monitoring.
 
@@ -630,8 +616,7 @@ Administering a Linux server requires different strategies and management to mai
 
 • Implement the monitoring tools to track resource usage, system performance, and network.
 
-\
-
+<br>
 
 • Set up monitoring tools to track system performance, resource usage, and network activity.
 
@@ -691,8 +676,7 @@ There are a ton of useful commands in Linux, and here are some of the commonly u
 
 • wget: Download files from the browser or web.
 
-\
-
+<br>
 
 • free: Shows memory usage.
 
@@ -762,8 +746,7 @@ In case of the system boot failure, you can follow various approaches such as:
 
 • Check the hardware connections like cables, RAM, cooling fan, etc.
 
-\
-
+<br>
 
 • If the system shows an error message related to the Kernel, try to boot it with the older Kernel version from GRUB.
 
@@ -811,8 +794,7 @@ The following table shows the difference between UDP and TCP:
 
 <table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top">Factors</td><td valign="top">UDP</td><td valign="top">TCP</td></tr><tr><td valign="top"><p> </p><p>Connection- oriented</p></td><td valign="top"><p> </p><p>UDP does not establish a proper connection.</p></td><td valign="top">TCP is connection-oriented because it establishes a connection between the sender and receiver.</td></tr></tbody></table>
 
-\
-
+<br>
 
 <table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top">Factors</td><td valign="top">UDP</td><td valign="top">TCP</td></tr><tr><td valign="top"><p> </p><p>Reliability</p></td><td valign="top">UDP does not provide a reliability mechanism.</td><td valign="top">It guarantees reliable data delivery by retransmitting corrupt packets or lost packets.</td></tr><tr><td valign="top"><p> </p><p>Usage</p></td><td valign="top">It is used in low overhead, speed, and real-time communication applications.</td><td valign="top">It is used where ordered data is delivered, and reliable data must be delivered.</td></tr><tr><td valign="top"><p> </p><p>Applications</p></td><td valign="top">Video/voice conferencing, DNS, online gaming, streaming media, etc.</td><td valign="top">File transfers, email, web browsing, database transactions, etc.</td></tr></tbody></table>
 
@@ -846,8 +828,7 @@ grep "test" file.txt                                                        This
 
 ### 48.     How do you check the status of a service or daemon in Linux? <a href="#id-48._how_do_you_check_the_status_of_a_ser" id="id-48._how_do_you_check_the_status_of_a_ser"></a>
 
-\
-
+<br>
 
 To check the status of a service or daemon, we can use the \`systemctl\` command followed by the service name.
 
@@ -899,8 +880,7 @@ We can use \`crontab\` command for performing recurring tasks in Linux. By addin
 
 For Example: If we want to execute a script name “geeks.sh” every day at 3:30 AM. We use the following command.
 
-\
-
+<br>
 
 crontab -e                                                                &#x20;
 
@@ -964,8 +944,7 @@ Once you get the PID of the process then run the kill command to end it:
 
 kill \<PID>                                                                &#x20;
 
-\
-
+<br>
 
 If you don’t want to find the PID, then you can use the pkill command to kill a process by its name:
 
@@ -1007,8 +986,7 @@ cat geeks.txt                                                             &#x20;
 
 ### 62.     What is the purpose of the crontab file in Linux, and how do you schedule recurring tasks using cron jobs? <a href="#id-62._what_is_the_purpose_of_the_crontab_f" id="id-62._what_is_the_purpose_of_the_crontab_f"></a>
 
-\
-
+<br>
 
 The crontab file in Linux is used to schedule recurring tasks or cron jobs. It contains a list of commands or scripts that are executed at specified time intervals. To edit the crontab file, you can use the crontab -e command.
 
@@ -1064,8 +1042,7 @@ For example: If we want to change the ownership of a file to user “Jayesh” a
 
 chown jayesh:users file\_name                                              &#x20;
 
-\
-
+<br>
 
 ### 66.     What is the purpose of the ping command in Linux, and how do you test network connectivity to a remote host? <a href="#id-66._what_is_the_purpose_of_the_ping_comm" id="id-66._what_is_the_purpose_of_the_ping_comm"></a>
 
@@ -1119,8 +1096,7 @@ gateway 192.168.1.1
 
 dns-nameservers 8.8.8.8 8.8.4.4
 
-\
-
+<br>
 
 Save the file and restart the network service or reboot the system for the changes to take effect.
 
@@ -1176,8 +1152,7 @@ The ‘systemctl start \<service>’ command is used to start a service, and ‘
 
 ### 76. What are common causes of file permission issues in Linux? <a href="#id-76.what_are_common_causes_of_file_permis" id="id-76.what_are_common_causes_of_file_permis"></a>
 
-\
-
+<br>
 
 Common causes of file permission issues in Linux include incorrect ownership, improper permissions set for users or groups, and conflicts between different users’ permissions.
 
@@ -1221,8 +1196,7 @@ Common causes include large log files, excessive data storage, uncontrolled grow
 
 ### 83. How can you identify and terminate a process that is using a lot of CPU in Linux? <a href="#id-83.how_can_you_identify_and_terminate_a" id="id-83.how_can_you_identify_and_terminate_a"></a>
 
-\
-
+<br>
 
 The ‘top’ or ‘htop’ command can display the processes using the most CPU. To terminate a process, the ‘kill’ command followed by the process ID (PID) can be used.
 
@@ -1270,8 +1244,7 @@ Network connectivity between two Linux systems can be checked using tools like �
 
 The ‘route’ command is used to view or modify the IP routing table on a Linux system. It displays information about the network routes and allows adding or deleting routes.
 
-\
-
+<br>
 
 ### 91. How do you configure a Linux system to act as a router? <a href="#id-91.how_do_you_configure_a_linux_system_t" id="id-91.how_do_you_configure_a_linux_system_t"></a>
 

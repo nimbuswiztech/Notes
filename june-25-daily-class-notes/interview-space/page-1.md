@@ -4,12 +4,10 @@
 
 <figure><img src="../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
 
-\
+<br>
 
-
-Machine and Application Prerequistes\
-
-
+Machine and Application Prerequistes<br>
+----------------------------------------
 
 1. **Initial Machine Setup with Docker Desktop**&#x20;
 
@@ -53,8 +51,7 @@ Machine and Application Prerequistes\
 5. **Accessing cluster**&#x20;
 
 * Application Migration Stage 4&#x20;
-* Application Migration Stage 5\
-
+* Application Migration Stage 5<br>
 
 ### Detailed explanation
 
@@ -113,8 +110,7 @@ Migrating an application to Kubernetes is a multi-stage, structured process that
 
 This methodology ensures every migration step is predictable, traceable, and rapidly reversible—reflecting a robust, real-world senior DevOps approach.
 
-\
-
+<br>
 
 To efficiently containerize and migrate an application to Kubernetes, a senior DevOps engineer would approach the process in a series of well-defined steps designed to minimize risk and optimize for security, operations, and scalability. Here’s a real-world, structured methodology:
 
@@ -176,4 +172,4 @@ To efficiently containerize and migrate an application to Kubernetes, a senior D
 
 Following these disciplined steps ensures efficient, predictable, and secure containerization and migration of apps to Kubernetes, reflecting strong hands-on leadership and operational maturity.
 
-\
+<br>
