@@ -17,7 +17,7 @@ Here are step-by-step instructions to install SonarQube on an AWS EC2 instance r
 *   Use SSH to connect to your instance from your terminal:
 
     ```
-    textssh -i /path/to/your-key.pem ec2-user@<EC2-PUBLIC-IP>
+    ssh -i /path/to/your-key.pem ec2-user@<EC2-PUBLIC-IP>
     ```
 
 ### Step 3: Update System Packages
@@ -25,13 +25,13 @@ Here are step-by-step instructions to install SonarQube on an AWS EC2 instance r
 For Amazon Linux 2:
 
 ```
-textsudo yum update -y
+sudo yum update -y
 ```
 
 Or for Ubuntu:
 
 ```
-textsudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```
 
 ### Step 4: Install Java (SonarQube requires Java 11 or higher)
